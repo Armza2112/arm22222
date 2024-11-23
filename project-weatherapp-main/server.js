@@ -15,9 +15,9 @@ const storeDataController = require('./controllers/storeDataController')
 
 mongoose.connect('mongodb+srv://admin:212546@cluster0.gexcq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     {useNewUrlParser : true}
-)
+ )
 
-// mongoose.connect("mongodb://localhost:27017/cpe-project")
+//mongoose.connect("mongodb://localhost:27017/")
 
 app.use(express.static('public'))
 app.use(express.json()) 
